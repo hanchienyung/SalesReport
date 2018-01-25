@@ -19,13 +19,16 @@ public class SalesReport {
     public String ShowSales() {
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Do you want to continue?  Y/N")
+        System.out.println("Do you want to continue?  Y/N");
+
+
         System.out.println("Enter Customer Number, Customer Name, SalesAmount, TaxCode");
 
         customer_number = keyboard.next();
         customer_name = keyboard.next();
         sales_amount = keyboard.next();
         taxCode = keyboard.next();
+
 
         switch (taxCode) {
             case "0":
